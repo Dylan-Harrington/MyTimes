@@ -8,6 +8,11 @@ header {
   align-items: center;
   border-bottom: 1px solid black;
   justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+  width: 100%;
 }
 
 header .logo {
@@ -36,3 +41,158 @@ nav a {
 }
 
 /* This is the main content of the page */
+
+#main .title {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+}
+
+#earth .title {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+
+#cameras .title {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+
+#cats .title {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+
+.pagebody {
+  display: flex;
+  margin: 40px auto;
+  position: relative;
+  top: 100px;
+}
+
+.column {
+  display: flex;
+  margin: 0 15px;
+}
+
+.column.large {
+  width: 630px;
+  flex-wrap: wrap;
+}
+
+.column.medium {
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+.column.small {
+  width: 240px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.picture.title {
+  display: flex;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  padding: 0px 20px;
+  text-align: center;
+}
+
+#main h1 {
+  font-size: 40px;
+  text-align: left;
+}
+
+.bottom_container {
+  display: flex;
+}
+
+.mini_column.right {
+  margin-left: 15px;
+}
+
+.mini_column.left {
+  margin-right: 15px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0
+}
+
+.bites {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+.bites p {
+  border-bottom: 1px solid black;
+  padding: 0px 20px 10px 10px;
+}
+
+.column.small h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* This is the page footer */
+
+footer {
+  background-color: MediumAquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 325px;
+  font-family: Verdana;
+  font-size: 12px;
+  position: relative;
+  top: 100px;
+}
+
+footer li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.bottom_nav {
+  display: flex;
+  align-items: center;
+}
+
+footer a {
+  color: black;
+}
+
+.bottom_nav h4 {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.bottom_logo {
+  padding-right: 30px;
+}

@@ -36,28 +36,3 @@ nav a {
 }
 
 /* This is the main content of the page */
-
-div {
-  border: 1px solid red;
-}
-
-.main {
-  display: flex;
-}
-
-.column {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.column.large {
-  width: 630px;
-}
-
-.column.medium {
-  width: 300px;
-}
-
-.column.small {
-  width: 240px;
-}
